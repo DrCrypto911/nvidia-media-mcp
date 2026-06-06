@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Local env / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Generated outputs from local testing
+output/
+*.jpg
+*.png
+!docs/*.png
+!docs/*.jpg
+
+# npm / build artifacts (not currently used, but future-proofing)
+dist/
+build/
+.npm/
+*.tgz

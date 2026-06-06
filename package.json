@@ -1,0 +1,27 @@
+{
+  "name": "nvidia-media-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server exposing NVIDIA NIM media tools for image generation, OCR, and video understanding.",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "check": "node --check server.mjs",
+    "test": "npm run check"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "nvidia",
+    "nim",
+    "ai-agents",
+    "media-automation",
+    "ocr",
+    "text-to-image",
+    "video-understanding"
+  ],
+  "author": "DrCrypto911",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  }
+}
